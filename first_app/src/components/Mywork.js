@@ -7,6 +7,20 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 
 import 'owl.carousel/dist/assets/owl.theme.default.css';  
 
+const options={
+  margin:50,
+  loop:true,
+  dotsEach:true,
+  responsive: {
+    0: {
+        items: 1,
+    },
+    600: {
+        items: 2,
+
+    }
+},
+}
 export default function Mywork(props) {
   return (
     <div className="mywork" id="work">
@@ -21,9 +35,7 @@ export default function Mywork(props) {
         <div className="bgBoxGradient2" data-aos="fade-up" data-aos-duration="500"></div>
         <OwlCarousel
         className='owl-theme workShowCase'
-          responsive={0}
-          margin={50}
-          dots
+          {...options}
         >
         {
           props.mywork.map((MyworkItems,a)=>{

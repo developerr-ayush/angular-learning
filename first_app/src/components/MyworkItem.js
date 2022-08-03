@@ -17,8 +17,7 @@ export default function MyworkItem({ MyworkItems }) {
 
                     {
                         MyworkItems.skillsUsed.map(function(elements){
-                            console.log(elements)
-                            return (<span>{elements}</span>)
+                            return (<span key={elements}>{elements}</span>)
                         })
                     }
                     

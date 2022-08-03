@@ -12,11 +12,12 @@ export default function header(props) {
                     </h1>
                 </div>
                 <div className="rightNav">
-                    <ul className="flexbox">
-                        <span className="material-symbols-outlined closeNavBar">
+                    <ul className="flexbox" id='mobileNav'>
+                        <span className="material-symbols-outlined closeNavBar" onClick={()=>{
+                            document.getElementById('mobileNav').classList.remove('navbar-active')
+                        }}>
                             close
                         </span>
-
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#work">Portfolio</a></li>
@@ -24,7 +25,9 @@ export default function header(props) {
                     </ul>
                 </div>
                 <div className="hamburger">
-                    <span className="material-symbols-outlined meniIcon">
+                    <span className="material-symbols-outlined meniIcon" onClick={(()=>{
+                        document.getElementById('mobileNav').classList.add('navbar-active')
+                    })}>
                         menu
                     </span>
                 </div>
