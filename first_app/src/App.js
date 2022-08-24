@@ -100,10 +100,10 @@ let timelineDate = [
 let mywork = [
   {
     title: "Yoga",
-    skillsUsed: ['HTML5', 'css3Bootstrap', 'css3','javascript', 'jquery'],
+    skillsUsed: ['HTML5', 'Bootstrap', 'css3','javascript', 'jquery'],
     url: Yoga,
     detail: 'This website is also an assignment given by some company. most important thing in this website is animation created using pure css the leaf moving animation which also makes this website very fast.',
-    redirectLink: 'https://www.ayushshah.in/work/yoga'
+    redirectLink: 'https://www.ayushshah.in/work/yoga/index.html'
   },
   {
     title: "Dataviv Technologies",
@@ -112,19 +112,19 @@ let mywork = [
     detail: 'This website is companies website created by me and this is one of the good looking website created by me. Animation used in this layout is fabulaus and seriously main thing i like in this was design colour combination and animation whole thing is created by me.',
     redirectLink: 'https://dataviv-technologies.web.app/'
   },
-  {
-    title: "Rixero",
-    skillsUsed: ['HTML5', 'css3', 'javascript', 'jquery', 'Bootstrap 5'],
-    url: Rixero,
-    detail: 'This website is a project done by me whole front end is developed by me. Also this is one of the website of my freelance work as such this website dont have any kind of animation but yet simple and better website it is.',
-    redirectLink: 'https://www.ayushshah.in/work/rixero'
-  },
+  // {
+  //   title: "Rixero",
+  //   skillsUsed: ['HTML5', 'css3', 'javascript', 'jquery', 'Bootstrap 5'],
+  //   url: Rixero,
+  //   detail: 'This website is a project done by me whole front end is developed by me. Also this is one of the website of my freelance work as such this website dont have any kind of animation but yet simple and better website it is.',
+  //   redirectLink: 'https://www.ayushshah.in/work/rixero/index.html'
+  // },
   {
     title: "Data Web",
     skillsUsed: ['HTML5', 'javascript', 'jquery', 'scss'],
     url: DataWeb,
     detail: 'This website i created long after my course i just found this on some website and replicated exactly same as it is seen also i added few things on my own too like navigation sticky and few hover animations too',
-    redirectLink: 'https://www.ayushshah.in/work/dataweb'
+    redirectLink: 'https://www.ayushshah.in/work/dataweb/index.html'
   },
   {
     title: "Greeting Globe",
@@ -139,14 +139,14 @@ let mywork = [
     skillsUsed: ['HTML5', 'javascript', 'jquery', 'scss'],
     url: Finexo,
     detail: 'This website layput i just maked because i just like the ui part and animations used in this website also i personally love the website layout , design and ui. I learnt more about css animation over here',
-    redirectLink: 'https://www.ayushshah.in/work/finexo'
+    redirectLink: 'https://www.ayushshah.in/work/finexo/index.html'
   },
   {
     title: "Cuvee",
     skillsUsed: ['HTML5', 'javascript', 'jquery', 'scss'],
     url: Cuvee,
     detail: 'This was layout given by some company as assignment and i created it and it is really good although it is also a replication of websit only it is cuvee website clone just home page is been replicated with some customised thing too.',
-    redirectLink: 'https://www.ayushshah.in/work/cuvee'
+    redirectLink: 'https://www.ayushshah.in/work/cuvee/index.html'
   },
   
   {
@@ -154,14 +154,14 @@ let mywork = [
     skillsUsed: ['HTML5', 'javascript', 'jquery', 'scss'],
     url: Wanderon,
     detail: 'This website is also an assignment given by some company in interview round and actually i learnt many new things in logical part, used many stuffs like loops in this layout.',
-    redirectLink: 'https://www.ayushshah.in/work/wanderon'
+    redirectLink: 'https://www.ayushshah.in/work/wanderon/index.html'
   },
   {
     title: "Wireframe",
     skillsUsed: ['HTML5', 'css3', 'javascript', 'jquery', 'scss'],
     url: Wireframe,
     detail: 'This website is also an assignment given by some company in this layout i actually learn many things about owl carousel which is really facinating thing to do.',
-    redirectLink: 'https://www.ayushshah.in/work/wireframe'
+    redirectLink: 'https://www.ayushshah.in/work/wireframe/index.html'
   },
   
 
