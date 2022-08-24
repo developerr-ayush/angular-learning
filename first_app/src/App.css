@@ -845,18 +845,11 @@ img {
     overflow: hidden;
     position: relative;
     transition: 5s;
+    background-size: cover;
 }
 
-.mywork .workShowing .imageWrapWork img {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.mywork .workShowing:hover .imageWrapWork img {
-    transition: 5s ease-in-out;
-
-    top: -1400px;
+.mywork .workShowing:hover .imageWrapWork  {
+    background-position: bottom;
 }
 
 .mywork .workShowing img {

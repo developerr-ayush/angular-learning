@@ -1,7 +1,7 @@
 import React from 'react'
-import image1 from '../images/ayushcolor3.png'
-import image2 from '../images/ayushcolor4.png'
-import image3 from '../images/ayushcolor5.png'
+import image1 from '../images/ayushcolor3.jpg'
+import image2 from '../images/ayushcolor4.jpg'
+import image3 from '../images/ayushcolor5.jpg'
 import TimelineDataItem from './TimelineDataItem'
 
 export default function Myjourney(props) {

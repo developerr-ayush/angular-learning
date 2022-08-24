@@ -4,9 +4,9 @@ export default function MyworkItem({ MyworkItems }) {
     
     return (
         <div className="workShowing red" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
-            <div className="imageWrapWork">
+            <div className="imageWrapWork" style={{backgroundImage:`url(${MyworkItems.url}) `}}>
 
-                <img src={MyworkItems.url} alt="" />
+                {/* <img src={MyworkItems.url} alt="" /> */}
             </div>
             <div className="textHover">
                 <h4>{MyworkItems.title}</h4>

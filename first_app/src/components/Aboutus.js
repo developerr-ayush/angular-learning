@@ -1,5 +1,5 @@
 import React from 'react'
-import AyushImage from '../images/ayushcolor2.png'
+import AyushImage from '../images/ayushcolor2.jpg'
 import laptop from '../images/laptop.jpg'
 // img/ayushcolor2.png
 export default function Aboutus() {

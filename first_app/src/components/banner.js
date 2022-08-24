@@ -1,5 +1,5 @@
 import React from 'react'
-import Ayush from '../images/ayushcolor1.png'
+import Ayush from '../images/ayushcolor1.jpg'
 import PropTypes from 'prop-types';
 export default function banner(props) {
     return (

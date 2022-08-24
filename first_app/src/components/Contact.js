@@ -21,7 +21,7 @@ export default function Contact() {
                     smartphone
                 </span>
             </div>
-            <h6>+91 00000 00000</h6>
+            <h6>+91 90498 77048</h6>
         </a>
         <a href="mailto:shahayush480@gmail.com" className="designBox blue" data-aos="fade-left" data-aos-duration="500">
             <div className="iconBox">

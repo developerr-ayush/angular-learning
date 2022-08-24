@@ -5,6 +5,7 @@ import js from '../images/js.png'
 import jquery from '../images/jquery.png'
 import scss from '../images/icons8-sass-150.png'
 import bootstrap from '../images/bootstrap.png'
+import react from '../images/react.png'
 
 export default function TechFamiler() {
   return (
@@ -55,6 +56,13 @@ export default function TechFamiler() {
                 </div>
                 <h3>Scss</h3>
                 <p>Preprocessor used to write css very fast and easily also its fast too.</p>
+            </div>
+            <div className="div knowingDetails red" data-aos="fade-down" data-aos-duration="500">
+                <div className="iconOrImage">
+                    <img src={react} alt=""/>
+                </div>
+                <h3>Reactjs</h3>
+                <p><br/> Still in learning phase :) <br/></p>
             </div>
         </div>
     </div>
